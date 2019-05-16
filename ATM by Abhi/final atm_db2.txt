@@ -1,0 +1,9 @@
+create table atm_db2
+(
+cdinit bigint generated always as identity(start with 1000102356001100, increment by 7),
+card_no varchar(16),
+deposited bigint,
+withdrew bigint,
+avl_bal bigint,
+date_time varchar(30)
+)
